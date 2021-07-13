@@ -39,19 +39,22 @@
 <br><br><br>
 
 ## 홈페이지메인화면
-![image](https://user-images.githubusercontent.com/74701876/125226183-8aef0e00-e30b-11eb-8b1f-b8307b2db358.png)
+![image](https://user-images.githubusercontent.com/74701876/125419250-8f825f44-48fb-4007-86a3-0c23e0ff875d.png)
 <br><br><br>
 
 ## 데이터베이스 ERD(ERDCloud로 작성)
-![erd](https://user-images.githubusercontent.com/74701876/125284062-f78dfb00-e353-11eb-83ea-0fc0e30e179b.png)
+![erd](https://user-images.githubusercontent.com/74701876/125426441-b4a3a9b0-d05e-4ec1-9bfd-541f3b7e4540.png)
 
 
 <br><br><br>
 ## 내가 수행한 작업
-> <b>회원가입</b> - 회원가입, 로그인, 아이디 찾기, 비밀번호 찾기, 카카오/네이버 로그인(RestAPI), 이메일인증번호 전송기능 구현<br>
-> <b>중고거래</b> - 중고거래(등록, 수정, 삭제, 더보기버튼 AJAX 사용), 1 대 1 채팅기능(AJAX)<br> 
-> <b>ERD<b> - ERDCloud로 ERD 제작<br>
-> <b>배포</b> - AWS ubuntu서버 배포(EC2, RDS, ACM)<br>
-<br><hr>
+> <b>메인화면</b> - MBTI별 회원 현황, 공지사항, 월별 게시판 별 인기 top5 목록 출력<br>
+> <b>게시판</b> - 게시판(총 5개 - 글쓰기, 수정, 삭제), 항목별 검색, 댓글처리, 페이징<br>
+> <b>MBTTING</b> - 채팅 프로필, 대화목록, 1 대 1 채팅(AJAX) 
+> <b>ERD<b> - ERDCloud로 ERD 제작
+<hr>
 
 # 내가 수행한 작업 설명
+
+## 메인화면
+![image](https://user-images.githubusercontent.com/74701876/125419917-93f38abe-f66f-4a74-9f0c-5700ad8e339f.png)
