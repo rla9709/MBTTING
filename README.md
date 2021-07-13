@@ -56,5 +56,56 @@
 
 # 내가 수행한 작업 설명
 
-## 메인화면
+## 메인화면 상세
+> - MBTI별 회원 현황
+> - 공지사항
+> - 월별 top5 게시물 화면에 출력<br>
+  
 ![image](https://user-images.githubusercontent.com/74701876/125419917-93f38abe-f66f-4a74-9f0c-5700ad8e339f.png)
+
+  
+## 게시판 상세
+> - 게시판 글 작성, 수정 삭제
+> - 댓글작성, 삭제 
+> - 항목별 검색기능<br>
+  
+![image](https://user-images.githubusercontent.com/74701876/125421978-53049ded-7fc0-45d5-a278-755e8a21d4a5.png)
+
+ ### 게시판 총 각 MBTI별로 4가지 분류를 통해 4개의 게시판과 모두가 접속가능한 자유게시판이 있음
+ ### 본인의 MBTI에 해당되는 게시판에만 입장가능<br>
+ 
+![게시판메인](https://user-images.githubusercontent.com/74701876/125421686-3c1f83d0-3bcc-4ec4-87e0-202de173eff3.png)
+![image](https://user-images.githubusercontent.com/74701876/125421572-d32089da-9269-4b96-af88-38923e803ec4.png) 
+### 한 페이지당 20개씩 나눠서 페이징 처리
+### 항목별로 검색가능(제목, 내용, 작성자)<br>
+
+![게시판 상세](https://user-images.githubusercontent.com/74701876/125423994-c53729e5-d200-4429-85f2-5a9f637acc29.png)
+### 작성자, 제목, 내용, 시간
+### 작성자 - 수정, 삭제 / 사용자 - 추천
+> 게시글 당 한번 추천가능, 조회수 쿠키 처리<br>
+
+![image](https://user-images.githubusercontent.com/74701876/125432139-9b38d248-ff9c-45ae-a2f6-d5caa0ad4b83.png)
+### 글작성 폼(작성자 아이디, MBTI가 좌측상단에 노출)
+
+  
+## 채팅 상세
+> - 채팅 프로필 등록, 프로필 선택
+> - 1 대 1 대화(AJAX 사용), 읽음 표시
+> - 채팅 목록 항목별 우측 상단에 읽지 않은 메세지의 개수 출력<br><br><br>
+
+![image](https://user-images.githubusercontent.com/74701876/125424128-dd016c97-3b38-400c-9458-7d36b9d3b47f.png) 
+### 채팅 프로필을 등록할 수 있음/ 이미 등록 되어있을 경우 수정, 삭제
+### 메시지 함 버튼에 내가 읽지 않은 메세지 개수 표시
+### 플랩카드 효과로 프로필에 마우스 오버시 프로필 뒤집어 지면서 소개글 출력<br><br>
+
+![image](https://user-images.githubusercontent.com/74701876/125424348-073c4226-d7bb-47d9-ae74-b28b87a76cb0.png)
+### 대화 상대별 안읽은 채팅 갯수 출력
+### 채팅 상대방 닉네임, 나와 상대방의 대화 중 가장 최근 메세지 출력<br><br>
+  
+![image](https://user-images.githubusercontent.com/74701876/125424511-95afb8f3-3fad-43ae-8818-407dd8e56e3a.png)
+> 대화방 모습은 데스크톱 버젼 카카오톡 대화방을 보면서 만들었습니다.
+### AJAX를 사용해서 실시간 대화처리
+### 상대방이 읽지 않을 경우 숫자 1표시/ 읽으면 사라짐
+### 전송시 성공할 경우 / 실패할 경우 / 데이터 베이스에 오류가 있을 경우 세가지의 메세지를 띄웁니다.
+
+  
